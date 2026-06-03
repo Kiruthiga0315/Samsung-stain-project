@@ -44,3 +44,13 @@ htmlcov/
 .env
 .env.local
 *.log
+
+# Data and Models
+data/
+checkpoints/
+tcga_slides/
+*.tflite
+*.zip
+gdc-client
+gdc_manifest.txt
+pytorch-CycleGAN-and-pix2pix/

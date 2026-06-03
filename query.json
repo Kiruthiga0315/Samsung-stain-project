@@ -1,0 +1,23 @@
+{
+  "filters": {
+    "op": "and",
+    "content": [
+      {
+        "op": "in",
+        "content": {
+          "field": "cases.project.project_id",
+          "value": ["TCGA-BRCA"]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "files.data_type",
+          "value": ["Tissue Slide Image"]
+        }
+      }
+    ]
+  },
+  "return_type": "manifest",
+  "size": "15"
+}
